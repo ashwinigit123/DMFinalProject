@@ -25,29 +25,16 @@
 
 
         <div class="container">
-
-        <div class="row">
-            This is the first dummy comment.
-        </div>
-
-        <div class="row">
-            This is the the second dummy comment.  It's no more interesting
-            than the first.
-        </div>
-
-        <div class="row">
-            This is the third dummy comment.  It's actually quite exciting!
-        </div>
         {% for comment in comments %}
             <div class="row">
-                {{ comment }}
+                <li>{{ comment }}</li>
             </div>
         {% endfor %}
 
         <div class="row">
             <form action="." method="POST">
-                <textarea  class="form-control" name="contents" placeholder="Enter a comment"></textarea>
-                <input class="btn btn-success" type="submit" value="Post comment">
+                <textarea  class="form-control" name="contents" placeholder="Enter a Book Name"></textarea>
+                <input class="btn btn-success" type="submit" value="Find Recommendations">
             </form>
         </div>
     </div><!-- /.container -->
