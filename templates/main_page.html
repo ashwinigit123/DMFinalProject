@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>My scratchboard page</title>
+        <title>Book Recommendation</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,25 +18,29 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">My scratchpad</a>
+                    <a class="navbar-brand" href="#">Book recommendation System</a>
                 </div>
             </div>
         </nav>
-
-
-        <div class="container">
+        </div>
         {% for comment in comments %}
+
             <div class="row">
                 <li>{{ comment }}</li>
             </div>
         {% endfor %}
+
+
+        <div class="container">
+
 
         <div class="row">
             <form action="." method="POST">
                 <textarea  class="form-control" name="contents" placeholder="Enter a Book Name"></textarea>
                 <input class="btn btn-success" type="submit" value="Find Recommendations">
             </form>
-        </div>
+
+
     </div><!-- /.container -->
     </body>
 </html>

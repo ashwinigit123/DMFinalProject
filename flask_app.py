@@ -4,16 +4,18 @@
 from flask import Flask, redirect, render_template, request, url_for
 import model
 app = Flask(__name__)
-comments = []
+comments = list()
 app.config["DEBUG"] = True
 
 @app.route("/", methods=["GET", "POST"])
 def index():
+    # comments.clear()
     if request.method == "GET":
         return render_template("main_page.html", comments=comments)
 
 
-    recom = model.newRecommendations_50(request.form["contents"])
+    recom = model.recommendBooks(request.form["contents"])
+    comments.clear()
     comments.append(recom)
     return redirect(url_for('index'))
 
