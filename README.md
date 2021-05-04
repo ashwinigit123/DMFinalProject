@@ -3,7 +3,7 @@ Data Mining Project
 
 # Book recommendation Using Item Based Collaborative Filtering.
 
-Google Colab Link: 
+Google Colab Link: https://github.com/ashwinigit123/DataMining/blob/main/BookRecommendation_itembased.ipynb
 Please add the dataset to either your local machine or on files section present in google collab.
 # Important Links:
 Python Anywhere: http://ashwinitrale8.pythonanywhere.com/
