@@ -23,12 +23,7 @@
             </div>
         </nav>
         </div>
-        {% for comment in comments %}
 
-            <div class="row">
-                <li>{{ comment }}</li>
-            </div>
-        {% endfor %}
 
 
         <div class="container">
@@ -42,5 +37,15 @@
 
 
     </div><!-- /.container -->
+    <label>Your Top 5 Recommendations based on Similarity Score</label><br>
+        {% for comment in comments %}
+             {% for i in comment %}
+                 {% for j in i %}
+                    <div class="row">
+                        <li>{{ j }}</li><br>
+                    </div>
+                {% endfor %}
+            {% endfor %}
+        {% endfor %}
     </body>
 </html>

@@ -11,6 +11,7 @@ app.config["DEBUG"] = True
 def index():
     # comments.clear()
     if request.method == "GET":
+        # comments.clear()
         return render_template("main_page.html", comments=comments)
 
 

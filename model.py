@@ -52,7 +52,11 @@ def recommendBooks(title):
         recommended_books = [recommended_books]
         return recommended_books
     else :
-        return "\nSorry we do not have a recommendation for you"
+        err =[]
+        err.append("\nSorry we do not have a recommendation for you")
+        errmsg =[]
+        errmsg.append(err)
+        return errmsg
 
 if __name__ == '__main__':
     print(recommendBooks(["A Time to Kill"]))
