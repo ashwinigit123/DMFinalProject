@@ -22,7 +22,7 @@ Upload flask python and model files.
 create a directory called templates and add the html templates files in them.
 Runn flask_app.py from your Pythonanywhere wesite.
 
-you can follow this tutorial:
+you can follow this tutorial:https://blog.pythonanywhere.com/121/
 
 Testing the application:
 Click on :http://ashwinitrale8.pythonanywhere.com/
