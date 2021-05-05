@@ -10,7 +10,7 @@ Python Anywhere: http://ashwinitrale8.pythonanywhere.com/
 
 Github Repo Link: https://github.com/ashwinigit123/DataMining/blob/main/BookRecommendation_itembased.ipynb
 
-Video Demo: 
+Video Demo: https://youtu.be/tcr3IOSEuBE
 
 Kaggle Notebook Link:  https://www.kaggle.com/ashwinitrale/bookrecommendation-itembased-collaborative-filter
 
